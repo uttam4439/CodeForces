@@ -24,9 +24,9 @@ public class EvenOdds{
         long odd = (n+1)/2;
 
         if(k <= odd){
-            System.out.println(2 * k-1);
+            System.out.println(2 * k-1); // odd no. formula(2k-1)
         }else{
-            System.out.println(2*(k-odd));
+            System.out.println(2*(k-odd));  // jitna odd no. h usko jis position k even no. chaiye usse subtract kr do * 2 kr do even ke liye
         }
     }
 }
